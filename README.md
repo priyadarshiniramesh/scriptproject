@@ -23,7 +23,6 @@ Publish the website in the given URL.
 
 ### volume_of_sphere.html
 ```
-
 {% load static %}
 <!DOCTYPE html>
 <html>
@@ -64,10 +63,12 @@ Publish the website in the given URL.
 </body>
 
 </html>
+
+```
+### volume_of_cone.html
+
 ```
 
-### volume_of_cone.html 
-```
 {% load static %}
 <!DOCTYPE html>
 <html>
@@ -109,25 +110,14 @@ Publish the website in the given URL.
 </body>
 
 </html>
+
+
 ```
 ### volume_of_sphere.js
-```
-a = document.querySelector('#button_calculate');
 
-a.addEventListener('click',function(e){
-    radius  = document.querySelector('#value_radius');
-    answer = document.querySelector('#value_ans');
-
-    let sphere;
-    sphere = 4/3 * parseFloat(radius.value) * parseFloat(radius.value) * parseFloat(radius.value);
-    answer.value = sphere;
-     
-})
-```
-
-### volume_of_circle.js
 
 ```
+
 a = document.querySelector('#button_calculate');
 
 a.addEventListener('click',function(e){
@@ -142,19 +132,40 @@ a.addEventListener('click',function(e){
 
 ```
 
-## OUTPUT:
-![output](./static/image/ss.jpg)
+### volume_of_cone.js
 
-![output](./static/image/ss1.jpg)
+```
+a = document.querySelector('#button_calculate');
 
-## REPORT:
-![output](./static/image/rr.jpg)
+a.addEventListener('click',function(e){
+    radius  = document.querySelector('#value_radius');
+    height = document.querySelector('#value_height');
+    answer = document.querySelector('#value_ans');
 
-![output](./static/image/rr1.jpg)
+    let cone;
+    cone = 1/3  * 3.14 * parseFloat(radius.value) * parseFloat(radius.value) * parseFloat(height.value);
+    answer.value = cone;
+     
+})
 
-## RESULT:
-    Thus a website is designed for the chip manufacturing company and is hosted in  URL: http://priyadarshini.student.saveetha.in:8000/volume_of_sphere/. HTML code is validated.
+```
+
+## OUTPUT : 
+
+![output](.static/image/image1.jpg)
+
+![output](.static/image/image2.jpg)
+
+## VALIDATION REPORT:
+
+![output](.static/image/imagerep1.jpg)
+
+![output](.static/image/imagerep2.jpg)
 
 
-    Thus a website is designed for the chip manufacturing company and is hosted in  URL :http://priyadarshini.student.saveetha.in:8000/volume_of_cone/. HTML code is validated.
+## RESULT : 
+
+   Thus a website is designed for the calculation of volume of sphere using Javascript and is hosted in the URL http://priyadarshini.student.saveetha.in:8000/volume_of_sphere/. HTML code is validated. 
+
+   Thus a website is designed for the calculation of volume of cone using Javascript and is hosted in the URL http://priyadarshini.student.saveetha.in:8000/volume_of_cone/ .HTML code is validated. 
 
