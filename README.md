@@ -144,10 +144,12 @@ a.addEventListener('click',function(e){
 
 ## OUTPUT:
 ![output](./static/image/sphere.jpg)
+
 ![output](./static/image/cone.jpg)
 
 ## REPORT:
 ![output](./static/image/spherereport.jpg)
+
 ![output](./static/image/conereport.jpg)
 
 ## RESULT:
