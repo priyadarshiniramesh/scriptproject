@@ -143,12 +143,12 @@ a.addEventListener('click',function(e){
 ```
 
 ## OUTPUT:
-![output](./static/image/output1.jpg)
-![output](./static/image/output2.jpg)
+![output](./static/image/sphere1.jpg)
+![output](./static/image/cone.jpg)
 
 ## REPORT:
-![output](./static/image/report1.jpg)
-![output](./static/image/report2.jpg)
+![output](./static/image/spherereport.jpg)
+![output](./static/image/conereport.jpg)
 
 ## RESULT:
      Thus a website is designed for the chip manufacturing company and is hosted in  URL http://priyadarshini.student.saveetha.in:8000/volume_of_sphere/. HTML code is validated.
