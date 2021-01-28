@@ -143,15 +143,11 @@ a.addEventListener('click',function(e){
 ```
 
 ## OUTPUT:
-
-
 ![output](./static/image/output1.jpg)
 ![output](./static/image/output2.jpg)
 
 
 ## REPORT:
-
-
 ![output](./static/image/report1.jpg)
 ![output](./static/image/report2.jpg)
 
