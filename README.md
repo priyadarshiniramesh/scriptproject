@@ -157,8 +157,8 @@ a.addEventListener('click',function(e){
 
 
 ## RESULT:
-     Thus a website is designed for the chip manufacturing company and is hosted in thr URL http://priyadarshini.student.saveetha.in:8000/volume_of_sphere/. HTML code is validated.
+     Thus a website is designed for the chip manufacturing company and is hosted in  URL http://priyadarshini.student.saveetha.in:8000/volume_of_sphere/. HTML code is validated.
 
 
-    Thus a website is designed for the chip manufacturing company and is hosted in thr URL http://priyadarshini.student.saveetha.in:8000/volume_of_cone/. HTML code is validated.
+    Thus a website is designed for the chip manufacturing company and is hosted in  URL http://priyadarshini.student.saveetha.in:8000/volume_of_cone/. HTML code is validated.
 
