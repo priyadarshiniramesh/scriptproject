@@ -143,7 +143,7 @@ a.addEventListener('click',function(e){
 ```
 
 ## OUTPUT:
-![output](./static/image/sphere1.jpg)
+![output](./static/image/sphere.jpg)
 ![output](./static/image/cone.jpg)
 
 ## REPORT:
