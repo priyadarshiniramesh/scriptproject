@@ -143,18 +143,18 @@ a.addEventListener('click',function(e){
 ```
 
 ## OUTPUT:
-![output](./static/image/sphere.jpg)
+![output](./static/image/ss.jpg)
 
-![output](./static/image/cone.jpg)
+![output](./static/image/ss1.jpg)
 
 ## REPORT:
-![output](./static/image/spherereport.jpg)
+![output](./static/image/rr.jpg)
 
-![output](./static/image/conereport.jpg)
+![output](./static/image/rr1.jpg)
 
 ## RESULT:
-     Thus a website is designed for the chip manufacturing company and is hosted in  URL http://priyadarshini.student.saveetha.in:8000/volume_of_sphere/. HTML code is validated.
+    Thus a website is designed for the chip manufacturing company and is hosted in  URL: http://priyadarshini.student.saveetha.in:8000/volume_of_sphere/. HTML code is validated.
 
 
-    Thus a website is designed for the chip manufacturing company and is hosted in  URL http://priyadarshini.student.saveetha.in:8000/volume_of_cone/. HTML code is validated.
+    Thus a website is designed for the chip manufacturing company and is hosted in  URL :http://priyadarshini.student.saveetha.in:8000/volume_of_cone/. HTML code is validated.
 
