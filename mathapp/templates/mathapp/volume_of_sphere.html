@@ -1,0 +1,40 @@
+{% load static %}
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>VOLUME OF SPHERE</title>
+    <link rel="stylesheet" href="{% static 'css/volumeofsphere.css' %}">
+</head>
+
+<body>
+    <div class="container">
+        <div class="formview">
+            <div class="banner">
+                VOLUME OF SPHERE
+            </div>
+            <div class="content">
+                <form action="/volume_of_sphere/" method="GET">
+                    {% csrf_token %}
+                    <div class="forminput">
+                        <b><label for="value_radius">RADIUS=</label></b>
+                        <input type="text" name="value_radius" id="value_radius">
+                    </div>
+                    
+                    
+                                       
+                    <div class="forminput">
+                        <b><button type="button" name="button_calculate" id="button_calculate">CALCULATE</button></b>
+                    </div>
+                    <div  class="forminput">
+                        <b><label for="value_ans">ANS=</label></b>
+                        <input type="text" name="value_ans" id="value_ans" readonly>
+                    </div> 
+                </form>
+            </div>
+        </div>
+    </div>
+    <script src="/static/js/volumeofsphere.js"></script>
+</body>
+
+</html>

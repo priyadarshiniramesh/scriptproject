@@ -1,0 +1,41 @@
+{% load static %}
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>VOLUME OF CONE</title>
+    <link rel="stylesheet" href="{% static 'css/volumeofcone.css' %}">
+</head>
+
+<body>
+    <div class="container">
+        <div class="formview">
+            <div class="banner">
+                VOLUME OF CONE
+            </div>
+            <div class="content">
+                <form action="/volume_of_cone/" method="POST">
+                    {% csrf_token %}
+                    <div class="forminput">
+                        <b><label for="value_radius">RADIUS=</label></b>
+                        <input type="text" name="value_radius" id="value_radius">
+                    </div>
+                    <div class="forminput">
+                        <b><label for="value_height">HEIGHT=</label></b>
+                        <input type="text" name="value_height" id="value_height">
+                    </div>
+                    <div class="forminput">
+                        <b><button type="button" name="button_calculate" id="button_calculate">CALCULATE</button></b>
+                    </div>
+                    <div  class="forminput">
+                        <b><label for="value_ans">ANS=</label></b>
+                        <input type="text" name="value_ans" id="value_ans" readonly>
+                    </div> 
+                </form>
+            </div>
+        </div>
+    </div>
+    <script src="/static/js/volumeofcone.js"></script>
+</body>
+
+</html>

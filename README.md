@@ -21,8 +21,144 @@ Publish the website in the given URL.
 
 ## PROGRAM:
 
+### volume_of_sphere.html
+```
+
+{% load static %}
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>VOLUME OF SPHERE</title>
+    <link rel="stylesheet" href="{% static 'css/volumeofsphere.css' %}">
+</head>
+
+<body>
+    <div class="container">
+        <div class="formview">
+            <div class="banner">
+                VOLUME OF SPHERE
+            </div>
+            <div class="content">
+                <form action="/volume_of_sphere/" method="GET">
+                    {% csrf_token %}
+                    <div class="forminput">
+                        <b><label for="value_radius">RADIUS=</label></b>
+                        <input type="text" name="value_radius" id="value_radius">
+                    </div>
+                    
+                    
+                                       
+                    <div class="forminput">
+                        <b><button type="button" name="button_calculate" id="button_calculate">CALCULATE</button></b>
+                    </div>
+                    <div  class="forminput">
+                        <b><label for="value_ans">ANS=</label></b>
+                        <input type="text" name="value_ans" id="value_ans" readonly>
+                    </div> 
+                </form>
+            </div>
+        </div>
+    </div>
+    <script src="/static/js/volumeofsphere.js"></script>
+</body>
+
+</html>
+```
+
+### volume_of_cone.html 
+```
+{% load static %}
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>VOLUME OF CONE</title>
+    <link rel="stylesheet" href="{% static 'css/volumeofcone.css' %}">
+</head>
+
+<body>
+    <div class="container">
+        <div class="formview">
+            <div class="banner">
+                VOLUME OF CONE
+            </div>
+            <div class="content">
+                <form action="/volume_of_cone/" method="POST">
+                    {% csrf_token %}
+                    <div class="forminput">
+                        <b><label for="value_radius">RADIUS=</label></b>
+                        <input type="text" name="value_radius" id="value_radius">
+                    </div>
+                    <div class="forminput">
+                        <b><label for="value_height">HEIGHT=</label></b>
+                        <input type="text" name="value_height" id="value_height">
+                    </div>
+                    <div class="forminput">
+                        <b><button type="button" name="button_calculate" id="button_calculate">CALCULATE</button></b>
+                    </div>
+                    <div  class="forminput">
+                        <b><label for="value_ans">ANS=</label></b>
+                        <input type="text" name="value_ans" id="value_ans" readonly>
+                    </div> 
+                </form>
+            </div>
+        </div>
+    </div>
+    <script src="/static/js/volumeofcone.js"></script>
+</body>
+
+</html>
+```
+### volume_of_sphere.js
+```
+a = document.querySelector('#button_calculate');
+
+a.addEventListener('click',function(e){
+    radius  = document.querySelector('#value_radius');
+    answer = document.querySelector('#value_ans');
+
+    let sphere;
+    sphere = 4/3 * parseFloat(radius.value) * parseFloat(radius.value) * parseFloat(radius.value);
+    answer.value = sphere;
+     
+})
+```
+
+### volume_of_circle.js
+
+```
+a = document.querySelector('#button_calculate');
+
+a.addEventListener('click',function(e){
+    radius  = document.querySelector('#value_radius');
+    answer = document.querySelector('#value_ans');
+
+    let sphere;
+    sphere = 4/3 * parseFloat(radius.value) * parseFloat(radius.value) * parseFloat(radius.value);
+    answer.value = sphere;
+     
+})
+
+```
 
 ## OUTPUT:
 
 
+![output](./static/image/output1.jpg)
+![output](./static/image/output2.jpg)
+
+
+## REPORT:
+
+
+![output](./static/image/report1.jpg)
+![output](./static/image/report2.jpg)
+
+
 ## RESULT:
+     Thus a website is designed for the chip manufacturing company and is hosted in thr URL http://priyadarshini.student.saveetha.in:8000/volume_of_sphere/. HTML code is validated.
+
+
+    Thus a website is designed for the chip manufacturing company and is hosted in thr URL http://priyadarshini.student.saveetha.in:8000/volume_of_cone/. HTML code is validated.
+
