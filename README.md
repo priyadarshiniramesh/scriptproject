@@ -154,7 +154,7 @@ a.addEventListener('click',function(e){
 
 ![output](./static/image/image1.jpg)
 
-![output](./static/image/image2.jpg)
+![output](./static/image/images1.jpg)
 
 ## VALIDATION REPORT:
 
