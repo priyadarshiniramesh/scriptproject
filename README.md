@@ -152,15 +152,15 @@ a.addEventListener('click',function(e){
 
 ## OUTPUT : 
 
-![output](.static/image/image1.jpg)
+![output](./static/image/image1.jpg)
 
-![output](.static/image/image2.jpg)
+![output](./static/image/image2.jpg)
 
 ## VALIDATION REPORT:
 
-![output](.static/image/imagerep1.jpg)
+![output](./static/image/imagerep1.jpg)
 
-![output](.static/image/imagerep2.jpg)
+![output](./static/image/imagerep2.jpg)
 
 
 ## RESULT : 
